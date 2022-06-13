@@ -1,1 +1,136 @@
-
+PROYECTO INTEGRADOR FINAL
+Desarrollar un programa que simule algunos de los procesos de una
+ferretería:
+1. Mostrar un menú con las siguientes opciones:
+a. ALTAS
+b. BAJAS
+c. MODIFICACIONES
+d. CONSULTAS
+e. SALIR
+2. En el menú de ALTAS mostrar la opción PRODUCTO y SALIR.
+3. En el menú de BAJAS mostrar la opción PRODUCTO y SALIR.
+4. En el menú de MODIFICACIONES mostrar las opciones:
+a. Producto
+b. Costo
+c. Entrada a inventario
+d. Salida de inventario
+e. SALIR
+5. En el menú de CONSULTAS:
+a. Producto
+b. TODO
+c. Salir
+6. Menú SALIR
+7. El menú principal puede ir dentro de un DO WHILE, cada
+submenú de igual manera puede ir en un DO WHILE pero
+siempre que me de la opción de regresarme al menú principal,
+la única manera de salir del sistema es entrando a la opción
+SALIR del menú principal.
+8. Todos los datos que se capturen o den de alta, deberán
+guardarse en arreglos.
+9. Usar funciones para que el código esté más organizado.
+10. Documentar.
+11. Identación.
+12. TODAS las búsquedas de producto en todos los menús
+deben hacerse con el método de BUSQUEDA BINARIA, no
+SECUENCIAL.
+Cada producto tiene los siguientes atributos o datos:
+Nombre del producto
+Marca
+Costo
+Tipo de unidad
+Inventario
+Estatus
+Ejemplo de productos:
+Tornillo, clavo, tuerca, martillo, manguera, pinzas, desarmador,
+cuchara, boiler, tinaco, cemento, cal, lija, tubo, flotador, canaleta,
+cable, foco, guantes, soldadura, cautín, taladro.
+Ejemplo de marcas:
+Black and Decker, Urrea, Bosch, Skil, Ryobi, Dewalt.
+Ejemplo de tipo de unidad:
+Pieza, metro, kilo, botella, paquete, cubeta, bolsa.
+Ejemplo de estatus:
+Activo, inactivo
+Podríamos tener una matriz bidimensional como esta, en donde
+cada renglón es un producto, cada columna una característica o
+atributo:
+Cable Bosch Metro 5.00 1000 ACTIVO
+Clavo 1
+pulgada
+Skill Pieza 1.00 5000 ACTIVO
+Taladro Black and
+Decker
+Pieza 300.00 20 ACTIVO
+MENÚ ALTAS
+En la opción de PRODUCTO, poder agregar un producto nuevo con
+sus características, el precio debe entrar en cero pesos y el
+inventario también en ceros.
+El producto debe insertarse en el arreglo en orden alfabético.
+En la opción de SALIR, regresar al menú principal.
+MENÚ BAJAS
+En la opción de PRODUCTO pedir al usuario un nombre de producto
+y buscarlo en el arreglo.
+Poder dar de baja un producto, la baja no consiste en eliminar el
+producto, sino en poner el estatus en INACTIVO, la condición para
+poder dar de baja a un producto, es que su inventario esté en ceros,
+si no está en ceros, se debe mostrar un mensaje de que no es posible
+darlo de baja ya que el inventario no está vacío. Al terminar regresar
+al menú principal.
+En la opción de SALIR, mostrar el menú principal.
+MENÚ MODIFICACIONES
+En la opción de PRODUCTO pedir al usuario un nombre de producto
+y buscarlo en el arreglo. Pedir al usuario que teclee el nuevo nombre,
+esto es bajo la suposición que la primera vez que se dio de alta,
+quedó con un error de ortografía o incorrecto. Si el nombre cambió
+se deberán tomar sus datos y checar en qué lugar alfabéticamente
+del arreglo se debe mover. Al terminar regresar al menú principal.
+En la opción de COSTO, pedir al usuario un nombre de producto y
+buscarlo en el arreglo. Pedir al usuario que teclee el precio del
+producto. Al terminar regresar al menú principal.
+En la opción de ENTRADA A INVENTARIO, pedir al usuario un nombre
+de producto y buscarlo en el arreglo. Pedir al usuario que teclee el
+número de artículos que se agregan al inventario. Al terminar
+regresar al menú principal. Si el producto está INACTIVO, no se
+puede hacer entrada al inventario.
+En la opción de SALIDA A INVENTARIO, pedir al usuario un nombre
+de producto y buscarlo en el arreglo. Pedir al usuario que teclee el
+número de artículos que se eliminan del inventario porque ya se
+vendieron. Si el producto está INACTIVO, no se puede hacer entrada
+al inventario. Al terminar regresar al menú principal.
+En la opción de SALIR, mostrar el menú principal.
+MENÚ CONSULTAS
+En la opción de PRODUCTO pedir al usuario un nombre de producto
+y buscarlo en el arreglo. Mostrar en pantalla los datos del producto
+en un formato similar al siguiente:
+PRODUCTO
+CABLE (en mayúsculas)
+------------------------------------------------------------------------------------------------
+Marca: Bosch
+Tipo de unidad: Metro
+Costo: 1.00
+Inventario: 5000
+Estatus: Activo
+------------------------------------------------------------------------------------------------
+En la opción de TODO, mostrar todos los productos en un formato
+similar al siguiente:
+PRODUCTO
+CABLE (en mayúsculas)
+------------------------------------------------------------------------------------------------
+Marca: Skill
+Tipo de unidad: Pieza
+Costo: 5.00
+Inventario: 1000
+Estatus: Activo
+------------------------------------------------------------------------------------------------
+PRODUCTO
+CLAVO 1 PULGADA (en mayúsculas)
+------------------------------------------------------------------------------------------------
+Marca: Skill
+Tipo de unidad: Pieza
+Costo: 1.00
+Inventario: 5000
+Estatus: Activo
+------------------------------------------------------------------------------------------------
+En la opción de SALIR, mostrar el menú principal.
+MENÚ SALIR
+SALIR, totalmente del sistema, en este momento se perderán por lo
+tanto todos los datos y se cierra.
