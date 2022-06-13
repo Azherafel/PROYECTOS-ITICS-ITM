@@ -1,0 +1,22 @@
+Algoritmo perro
+		Definir o1, o2 , t1 ,t2, c1 , c2  Como Entero
+		Escribir "dame el olor del hueso 1, del 1 al 10 "
+		Leer o1;
+		Escribir "dame tamaño del hueso 1, del 1 al 10 "
+		Leer t1;
+		Escribir "dame el olor del hueso 2, del 1 al 10 "
+		Leer o2;
+		Escribir "dame tamaño del hueso 2, del 1 al 10 "
+		Leer t2;
+		c1=o1+t1
+		c2=o2+t2
+		si c1>c2 Entonces
+			Escribir "perro eligue el hueso 1 "
+			
+		SiNo
+			Escribir "perro eligue el hueso 2 "
+			
+		FinSi
+		
+		
+FinAlgoritmo
