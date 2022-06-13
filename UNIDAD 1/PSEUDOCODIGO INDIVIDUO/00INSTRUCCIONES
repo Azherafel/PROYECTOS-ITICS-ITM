@@ -1,1 +1,118 @@
 Aqui se encuentran archivados los pseudocodigos realizados en PSEINT
+1.Leer 3 números enteros,
+sumarlos y mostrar el
+resultado
+
+2.Leer 3 números enteros e
+imprimir en pantalla cual
+es el mayor de los 3.
+
+3.Obtener el volumen de un
+cubo usando números flotantes
+en centímetros y mostrar el
+resultado
+
+4. Hacer un convertidor de grados
+centígrados a grados Fahrenheit y
+viceversa. Fórmulas:
+F = 1.8 (C) + 32
+C = (F – 32) / 1.8
+
+5. Calcular el salario de un empleado
+con la fórmula:
+Sueldo = cuota por hora *
+horas trabajadas
+
+6. Hacer un algoritmo que lea los 6
+nombres de sus materias de primer
+semestre, su calificación final y que
+las promedie y muestre el promedio
+en pantalla.
+
+7. Algoritmo que calcula la cantidad
+de CD’s necesarios para hacer un
+respaldo. Leer el número de GB y
+considerar que un CD tiene cupo para
+700 MB.
+
+8. Calcular la hipotenusa de un
+triángulo rectángulo con la fórmula:
+H = √ a2 + b2
+(la raíz cuadrada de la suma de los
+cuadrados de los catetos)
+
+9. Escribir en pantalla los
+números que existen
+entre n1 y n2.
+
+10. Pintar en pantalla un menú con las
+operaciones básicas (suma, resta,
+multiplicación y división), que pueda
+elegir que deseo hacer y que no termine
+hasta que se lo indique al algoritmo.
+
+11. Leer n1 y n2, después intercambiar el
+valor de ambos e imprimirlos en
+pantalla. Al intercambiarlos n1 debe
+recibir el valor de n2 y n2 el valor de n1.
+
+12. Leer la edad de una persona e
+imprimir en pantalla si la persona
+puede tramitar su credencial del INE
+o no
+
+13. Leer el mes de nacimiento de
+N personas y escribir cuantas
+personas hubo al final de cada
+mes.
+
+14. Escribir los números
+divisibles entre 3 que hay entre
+n1 y n2, así como su suma total.
+
+15. Escribir en
+pantalla la tabla del 1.
+
+16. Escribir en pantalla los
+números primos que existen
+entre 1 y 20.
+
+17. Serie Fibonacci
+del 1 al 100
+
+18.Tablas del 1 al 10
+
+19. HACER EL EJERCICIO
+18 CON EL CICLO
+HACER… MIENTRAS
+
+20. HACER EL EJERCICIO
+18 CON EL CICLO
+PARA/DESDE…
+
+21. Estás paseando a tu perrito y acaban de pasar
+enfrente de una tienda de comida para perros. En la
+vitrina hay dos huesos de olor y tamaño distintos.
+Tu perro mentalmente le asignó una calificación
+del 1 al 10 al olor de cada hueso y una calificación
+del 1 al 10 al tamaño de cada hueso. Por supuesto, tu
+perro preferiría que le compraras el hueso que es
+simultáneamente el más grande y el que huele mejor.
+¿Puedes ayudarlo a determinar qué hueso comprar?
+
+22. El superhéroe de moda, ha consumido demasiadas cervezas y comida chatarra, y
+ya no le quedan sus uniformes de trabajo. Por este motivo, ha decidido comenzar una
+dieta baja en grasas y calorías. En su planeta, los alimentos y bebidas que tienen bajo
+contenido en grasas y calorías tienen un número de código de barras divisible por 3.
+Debes diseñar un programa que le ayude a realizar sus compras en el súper, de
+manera que elija solo productos saludables para que pueda conseguir su objetivo.
+Cada código de barras está representado por un número entero entre 0 y 999
+Entrada
+Lista de códigos de barras de los productos disponibles en el supermercado que
+visita.
+Salida
+Cantidad de productos elegibles
+
+23. Menú:
+INSTRUCCIONES QUE SEGURO NECESITARÁS:
+ESPERAR TECLA SEGÚN REPETIR
