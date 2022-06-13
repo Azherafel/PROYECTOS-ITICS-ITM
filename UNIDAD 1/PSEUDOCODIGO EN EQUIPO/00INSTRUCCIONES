@@ -1,1 +1,72 @@
 Aqui estan los pseudocodigos realizado en equipo en PSEINT
+
+ALGORITMOS
+1. Desarrolle un algoritmo que lea 2 números y que determine cuál es el valor mayor y se
+imprima. Los 2 números pueden ser distintos, pero si no, se deberá escribir un mensaje
+que diga que los números son iguales y no existe un número mayor que el otro.
+
+2. Desarrolle un algoritmo que muestre los números primos entre 1 y 1000. Recordemos que
+un número primo solo es divisible entre 1 y entre sí mismo, no puede ser divisible entre
+otro número. Nos debe mostrar cada vez el número primo y hasta el final, mostrarnos
+cuántos números primos se encontraron entre el 1 y el 1000.
+
+3. Leer 2 números, imprimir los números naturales que hay entre ellos empezando por el
+más pequeño (el usuario puede introducirlos no necesariamente en orden), contar
+cuantos pares hay e imprimir el dato, por otro lado, para el caso de los impares sumarlos
+e imprimir el dato. Ejemplo:
+Dame el primer número: 10
+Dame el segundo número: 5
+Impresión de la serie: 5,6,7,8,9,10
+Cuantos pares hay: 3
+Suma de los impares: 21
+
+4. Leer 3 números los cuales significan una fecha (día, mes, año). Comprobar que sea
+válida la fecha, si no es válido que imprima un mensaje de error, y si es válida imprimir el
+mes con su nombre:
+Dame el día: 28
+Dame el mes: 10
+Dame el año: 2020
+La fecha es válida y el mes es Octubre
+
+5. Elaborar un algoritmo que permita ingresar el número de partidos ganados, empatados
+y perdidos de los 18 equipos en el torneo de cierre de la liga MX de primera división. Se
+debe pedir en primer lugar el número de partidos a considerar, ya que todos los equipos
+debieron jugar el mismo número. Un partido ganado vale 3 puntos, un empate 1 punto
+y un perdido 0 puntos. El cálculo de los puntos debe ser acumulando los partidos
+ganados y empatados de cada equipo. Mostrar al final la cantidad de puntos ganados
+de los 18 equipos.
+
+6. Algoritmo que lea una cifra de 4 números, se debe de mostrar el número de unidades,
+decenas, centenas y millares que componen a la cifra y su conformación. Por
+ejemplo:
+Teclea una cifra de 4 números: 4578
+Unidades: 8
+Decenas: 7
+Centenas: 5
+Millares: 4
+Conformación: 4000 + 700 + 50 + 4
+Se sugiere utilizar funciones de Pseint como por ejemplo SUBCADENA(), si se desea, cabe
+mencionar que esta función lee números enteros y regresa un valor entero. No requiere
+uso de cadenas o strings.
+
+7. Elaborar un algoritmo que nos lea N letras, y que al final nos diga cuantas vocales se
+teclearon.
+
+8. Hacer un algoritmo que lea 2 números enteros positivos, checar primero que
+efectivamente sean mayores que cero, y después checar si uno de ellos es el divisor del
+otro y si el residuo es cero, por consiguiente, se debe tomar como número divisor si es
+menor que el otro y el residuo es cero.
+
+9. Desarrollar un algoritmo que lea una cantidad de minutos y que el resultado nos diga a
+cuantos días, horas y minutos equivale. Por ejemplo:
+a. Teclear la cantidad de minutos: 1510
+b. Días: 1
+c. Hora: 1
+d. Minutos: 10
+Se recomienda usar la función REDON, para no tener problemas con los decimales.
+
+10. Dado un entero n, escribe un programa que dibuje un tache de arrobas de
+dimensiones n×n. Por ejemplo:
+Entrada: 5
+Salida:
+
